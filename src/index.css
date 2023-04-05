@@ -1,0 +1,59 @@
+/* Variables Start*/
+ :root {
+  --main-color: rgb(26, 188, 156);
+  --main-color-bg: rgba(26, 188, 156, 0.616);
+  --secondary-color: rgb(255, 255, 255);
+  --third-color: rgb(0, 0, 0);
+}
+/* Variables End */
+/* <!-- ======================================================= --> */
+/* Global Rules Start */
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Montserrat", sans-serif;
+}
+.BTC {
+  color: var(--main-color);
+}
+.btn-bg {
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+}
+.bgcolor {
+  background-color: var(--main-color);
+}
+/* Global Rules end */
+/* <!-- ======================================================= --> */
+/* Components start */
+.black-global-line,
+.white-global-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.black-global-line .inner-line {
+  background-color: var(--third-color);
+  height: 4px;
+  width: 100px;
+  border-radius: 20px;
+}
+.white-global-line .inner-line {
+  background-color: var(--secondary-color);
+  height: 4px;
+  width: 100px;
+  border-radius: 20px;
+}
+.white-global-line i {
+  color: var(--secondary-color);
+}
+/* Components end */
+/* <!-- ======================================================= --> */
